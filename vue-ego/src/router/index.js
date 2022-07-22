@@ -22,7 +22,7 @@ const routes = [
     },
     children:[
       {
-        path:'/layout',
+        path:'product',
         name:"Product",
         component:()=>import("../views/Product"),
         meta:{
@@ -30,7 +30,7 @@ const routes = [
         },
       },
       {
-        path:'/layout/params',
+        path:'params',
         name:"Params",
         component:()=>import("../views/Params"),
         meta:{
@@ -38,7 +38,7 @@ const routes = [
         },
       },
       {
-        path:'/layout/content',
+        path:'content',
         name:"Content",
         component:()=>import("../views/Content"),
         meta:{
