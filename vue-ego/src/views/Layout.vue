@@ -1,7 +1,7 @@
 <template>
   <div>
     <MainNav/>
-    <router-view></router-view>
+    <router-view class="main-container"></router-view>
   </div>
 </template>
 
@@ -14,6 +14,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.main-container{
+  margin: 10px 10px 0 210px;
+}
 </style>

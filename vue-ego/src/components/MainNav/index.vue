@@ -53,6 +53,9 @@ export default {
             currentIndex:"/product"
         }
     },
+    mounted(){
+        this.currentIndex = this.$route.path
+    },
     computed:{
         ...mapState("loginModules",["username"])
     },
@@ -112,5 +115,6 @@ export default {
     bottom: 0;
     left: 0;
     text-align: left;
+    z-index: 1000;
 }
 </style>

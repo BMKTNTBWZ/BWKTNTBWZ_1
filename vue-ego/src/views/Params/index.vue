@@ -1,11 +1,14 @@
 <template>
   <div>
-    <h3>规格参数页面</h3>
+    <params-list/>
   </div>
 </template>
 
 <script>
+import ParamsList from './ParamsList.vue'
+
 export default {
+  components: { ParamsList },
 
 }
 </script>
